@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; 
+}
+
+th {
+  width: 120px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+td {
+  padding: 5px;
+  text-align: center;
+}
+
+.time {
+  height: 40px;
+  font-weight: bold;
+}
+
+/* Event Styles */
+.Event {
+  border-radius: 8px;
+  color: white;
+  font-size: 0.85rem;
+  padding: 5px;
+}
+
+.Event.green {
+  background-color: #4caf50;
+}
+
+.Event.blue {
+  background-color: #2196f3;
+}
+
+.Event.pink {
+  background-color: #e91e63;
+}
